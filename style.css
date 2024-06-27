@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    background-color: rgb(54, 54, 169);
+    width: 23%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
+body{
+    background-color: darkgrey;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+.menuu{
+    display: block;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 23%;
+    margin: 0px auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: system-ui;
+}
+#bodyform input[type="text"],
+#bodyform input[type="password"]{
+    padding: 10px;
+    width: 90%;
+    margin-left: 18px;
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 2px solid gray;
+}
+#bodyform input[type="text"]:focus,
+#bodyform input[type="password"]:focus{
+    outline-color: rgb(54, 54, 169);
+    
+}
+label{
+    padding: 20px;
+    font-family: system-ui;
+    font-size: 14px;
+    color: gray;
+}
+h5{
+    font-size: 12px;
+    font-family: system-ui;
+    color: gray;
+    text-align: right;
+    padding-right: 19px;
+    cursor: pointer;
+}
+h5:hover{
+    color: black;
+    transition: all 0.3s;
+}
+h5:active{
+    transform: scale(0.99);
+}
+#btn1{
+    color: white;
+    background-color: rgb(83, 83, 210);
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#btn2:active,
+#btn3:active{
+    transform: scale(0.95);
+}
+#btn1:active,
+#btn4:active{
+    transform: scale(0.95);
+}
+#btn1:hover,
+#btn4:hover{
+    background-color: rgb(54, 54, 169);
+    transition: all 0.4s;
+}
+p{
+    text-align: center;
+    color: gray;
+    font-family: system-ui;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 8px;
+}
+p:hover{
+    color: black;
+    transition: all 0.3s;
+}
+p:active{
+    transform: scale(0.9);
+}
+#btn2{
+    border:none;
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    width: 41%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#btn2:hover{
+    background-color: rgb(230, 22, 22);
+    transition: all 0.4s;
+}
+#btn3{
+    border:none;
+    background-color: blue;
+    border-radius: 8px;
+    color: white;
+    width: 41%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#btn3:hover{
+    background-color: rgb(26, 26, 225);
+    transition: all 0.4s;
+}
+
+#btn4{
+    color: white;
+    background-color: rgb(83, 83, 210);
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin-bottom: 40%; */
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+hr{
+    background-color: grey;
+    padding: 2px;
+    border: none;
+    border-radius: 10px;
+    width:40%;
+    height: 30%;
+    margin: 0px 110px;
+}
+hr:hover{
+    transition: all 0.3s;
+    background-color: black;
+    width: 50%;
+    margin: 0px 90px;
+    cursor: pointer;
+}
+img{
+    width: 8%;
+    margin-left: 22px;
+    margin-bottom: 18%;
+}
+.picc{
+    padding-top: 8%;
+    width: 10%;
+}
+img:hover{
+    transform: scale(1.3);
+    transition: all 0.3s ease;
+
+}
+@media screen and (max-width: 700px){
+    .menuu{
+        height: 100%;
+        width: 100%;
+        width: 428px;
+        border-radius: 0%;
+    }
+    .loginn h3{
+        height: 100%;
+        width: 100%;
+        width: 428px;
+        margin-top: 0px;
+        border-radius: 0px;
+    }
+    h1{
+        padding-top: 10% ;
+        padding-bottom: 10%;
+    }
+    #bodyform input[type="text"],
+    #bodyform input[type="password"]{
+    padding: 13px;
+    width: 90%;
+    margin-left: 18px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+    #bodyform input{
+        font-size: 15px;
+    }
+    #btn2,
+    #btn3{
+        border:none;
+        border-radius: 8px;
+        color: white;
+        width: 41%;
+        padding: 13px;
+        margin-top: 20px;
+        margin-left: 25px;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    #btn1{
+        padding: 15px 12px;
+        margin-left: 23px;
+    }
+    #btn4{
+        padding: 15px 12px;
+        margin-left: 23px;
+    }
+    #bodyform input[type="text"],
+    #bodyform input[type="password"]{
+    margin-left: 22px;
+}
+img{
+    width: 8%;
+    margin-left: 28px;
+    margin-top: 4%;
+    margin-bottom: 50%;
+}
+body{
+    background-color: transparent;
+}
+hr{
+    display: none;
+}
+}
